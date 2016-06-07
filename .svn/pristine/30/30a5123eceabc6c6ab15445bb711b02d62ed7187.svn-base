@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxhdpi"
+    format="7"
+    timestamp="335357053231411"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="292" />
+    <task
+        name="instant-run-dex"
+        duration="654" />
+    <task
+        name="instant-run-transform"
+        duration="63" />
+    <task
+        name="verifier"
+        duration="3" />
+
+    <artifact
+        location="C:\Users\Saif\AndroidStudioProjects\Lab1_202_04\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="335068437748319" >
+        <artifact
+            location="C:\Users\Saif\AndroidStudioProjects\Lab1_202_04\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="335291802867298"
+        verifier="FIELD_TYPE_CHANGE" >
+        <artifact
+            location="C:\Users\Saif\AndroidStudioProjects\Lab1_202_04\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Saif\AndroidStudioProjects\Lab1_202_04\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="335329766991036"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Saif\AndroidStudioProjects\Lab1_202_04\app\build\intermediates\builds\debug\335329766991036\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="335357053231411"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Saif\AndroidStudioProjects\Lab1_202_04\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

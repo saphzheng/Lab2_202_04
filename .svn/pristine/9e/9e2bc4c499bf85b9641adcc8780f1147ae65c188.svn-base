@@ -1,0 +1,22 @@
+package lab1_202_04;
+
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.text.Html;
+import android.widget.TextView;
+
+public class LightSensorEventListener extends MySensorEventListeners{
+    float sensorValue = 0;
+
+    public LightSensorEventListener(TextView outputView){
+        super(outputView);
+    }
+    @Override
+    public void onSensorChanged(SensorEvent sensorEvent){
+        if(sensorEvent.sensor.getType() == Sensor.TYPE_LIGHT){
+            sensorValue = sensorEvent.values[0];
+            output.setText(Html.fromHtml("Current Light Sensor Value: <b>"+sensorValue+"<br/>"));
+        }
+    }
+}
